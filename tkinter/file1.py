@@ -1,0 +1,11 @@
+from tkinter import*
+root=Tk()
+root.geometry("700x600")
+root.title("hemloo")
+# root.minsize(300,20)
+Label(text="Hi! How you doing?", font=("Algerian",18), bg="lightyellow", fg="Black").pack()
+n=Label(text="Doing Great.",font=("Algerian",16),relief= RAISED, background="gray", foreground="white")
+n.pack()
+p=Label(text="Awesome", relief= SUNKEN, bg="palegreen", fg="Black", font="Algerian")
+p.pack(anchor="s")
+root.mainloop()
